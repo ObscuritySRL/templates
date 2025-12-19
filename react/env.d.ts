@@ -1,3 +1,3 @@
-declare module "bun" {
+declare module 'bun' {
   interface Env {}
 }
