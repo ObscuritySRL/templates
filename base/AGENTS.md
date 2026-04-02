@@ -18,7 +18,7 @@ Rules for working in this repository. Follow them exactly.
 
 - **Mirror the repo.** Match the language, formatting, naming conventions, and patterns already established in the project. When in doubt, look at neighboring code.
 - **Respect tooling config.** Follow whatever Prettier, ESLint, Biome, or other formatter/linter configs exist. Honor inline ignore directives.
-- **Alphabetize unordered things.** Sort imports, exports, object keys, enum members, type fields, union members, switch cases, class names, and map/set initializers alphabetically — unless order is semantically meaningful.
+- **Alphabetize unordered things.** Sort imports, exports, object keys, enum members, type fields, union members, switch cases, class names, and map/set initializers in ASCIIbetical order (case-sensitive ascending sort where uppercase letters precede lowercase, e.g., `Z` before `a`) — unless order is semantically meaningful.
 - **Naming: full words, no abbreviations.** Write `address`, not `addr`. Write `processIdentifier`, not `procId`. Write `modulePath`, not `modPath`. Names must be immediately understandable without surrounding context.
 - **Strings and formatting.** Follow the repo's existing convention (single vs. double quotes, semicolons, trailing commas, etc.). Use numeric separators where they improve readability (e.g., `1_000_000`).
 - **Comments.** Terse, value-add only. Do not add comments that restate what code already says. Do not add docstrings, comments, or type annotations to code you did not change.
